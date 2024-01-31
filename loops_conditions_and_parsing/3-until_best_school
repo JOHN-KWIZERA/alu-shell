@@ -5,18 +5,18 @@ i=0
 
 until false; do
 
-  echo "Best School"
+ echo "Best School"
 
-  ((i++))
+ ((i++))
 
-  if [[ $i -lt 10 ]]; then
+ if [[ $i -lt 10 ]]; then
 
-    continue
+  continue
 
-  else
+else
 
-    break
+break
 
-  fi
+fi
 
 done
